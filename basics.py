@@ -20,3 +20,22 @@ print('Contact types is', contact_types, 'it is of type', type(contact_types))
 print('Married is', married, 'it is of type', type(married))
 print(f'Dictionary keys => { contact_types.keys() }')
 print(f'Dictionary values => { contact_types.values() }')
+print()
+
+# Performing some computations
+number_1 = 12
+number_2 = 15
+
+print(f'Number 1\'s value => { number_1 }')
+print(f'Number 2\'s value => { number_2 }')
+print()
+
+add = number_1 + number_2
+print(f'The sum of both numbers => { add }')
+
+sub = number_2 - number_1
+print(f'The difference of both numbers => { sub }')
+
+prod = number_1 * number_2
+print(f'The product of both numbers => { prod }')
+print()
