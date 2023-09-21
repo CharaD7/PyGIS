@@ -53,3 +53,8 @@ age = input('Enter your age: ')
 print(f'Your first name is: { fname } and it is of type: { type( fname ) }')
 print(f'Your last name is: { lname } and it is of type: { type( lname ) }')
 print(f'Your age is: { age } and it is of type: { type( age ) }')
+print()
+
+# Typecasting the age
+new_age = int( age ) + 5
+print(f'Your new age after adding 5 years is: { new_age } and it is of type { type( new_age ) }')
