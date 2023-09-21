@@ -39,3 +39,17 @@ print(f'The difference of both numbers => { sub }')
 prod = number_1 * number_2
 print(f'The product of both numbers => { prod }')
 print()
+
+# Taking input from users
+
+# print('Enter your first name:')
+fname = input('Enter your first name: ')
+
+# print('Enter your last name:')
+lname = input('Enter your last name: ')
+
+age = input('Enter your age: ')
+
+print(f'Your first name is: { fname } and it is of type: { type( fname ) }')
+print(f'Your last name is: { lname } and it is of type: { type( lname ) }')
+print(f'Your age is: { age } and it is of type: { type( age ) }')
