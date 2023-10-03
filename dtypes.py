@@ -15,6 +15,17 @@ contacts.append(271029899)
 print()
 print('View all elements in contacts list => ', contacts)
 
+print()
+print('=' * 40)
+print('Implementing slicing')
+print('=' * 40)
+print('From 0th index to 3rd index => ', contacts[0:3])
+print('From 3rd index to the last index => ', contacts[3:-1])
+print('From 3rd index (inclusive) to the 1st index => ', contacts[:3])
+print('From 3rd index (exclusive) to the 1st index => ', contacts[::3])
+
+print()
+fullname = 'Bernard Asamoah'
 
 
 
