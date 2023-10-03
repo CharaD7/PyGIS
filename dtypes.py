@@ -1,4 +1,7 @@
 # List datatypes
+from operator import index
+
+
 contacts = [ 553020508, 204860341 ] # list
 
 print()
@@ -19,15 +22,26 @@ print()
 print('=' * 40)
 print('Implementing slicing')
 print('=' * 40)
-print('From 0th index to 3rd index => ', contacts[0:3])
-print('From 3rd index to the last index => ', contacts[3:-1])
-print('From 3rd index (inclusive) to the 1st index => ', contacts[:3])
-print('From 3rd index (exclusive) to the 1st index => ', contacts[::3])
+print('From 0th index to 3rd index =>', contacts[0:3])
+print('From 3rd index to the last index =>', contacts[3:-1])
+print('From 3rd index (inclusive) to the 1st index =>', contacts[:3])
+print('From 3rd index (exclusive) to the 1st index =>', contacts[::3])
 
 print()
 fullname = 'Bernard Asamoah'
+print('Splitting fullname', fullname.split(' '))
+first_name = fullname.split(' ')[0]
+last_name = fullname.split(' ')[1]
 
+print('')
+print('Full name:', fullname)
+print('First name:', first_name)
+print('Last name:', last_name)
 
-
+print('')
+print('The length of fullname is:', len(fullname))
+print('Index of the space character is:', fullname.index(' '))
+print('Items before index 7', fullname[:7])
+print('Items after index 7', fullname[7:])
 
 # Dictionary datatypes
