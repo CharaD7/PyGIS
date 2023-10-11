@@ -45,3 +45,14 @@ print('Items before index 7', fullname[:7])
 print('Items after index 7', fullname[7:])
 
 # Dictionary datatypes
+account = {
+  'name' : 'John Smith',
+  'contact' : 23023323022,
+  'email' : 'jsmith@gmail.com',
+}
+
+print()
+print('----------------------------------------')
+print('Working with Dictionary variables')
+print('----------------------------------------')
+print('Account contents:', account)
