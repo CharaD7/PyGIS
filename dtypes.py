@@ -73,8 +73,12 @@ account['name']['first_name'] = 'Michael'
 print('Display the new first name:', account['name']['first_name'])
 
 print()
-print('Emptying the dictionary')
+# print('Emptying the dictionary')
 # account = {}
-account.clear()
+# account.clear()
 
-print('Account details', account)
+# print('Account details', account)
+
+print('Deleting the contact information')
+account.pop('contact')
+print('Account information', account)
