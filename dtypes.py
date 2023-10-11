@@ -68,3 +68,13 @@ print('Account phone:', account['contact'])
 print('Account email:', account['email'])
 
 print()
+print('Changing the first name to Michael')
+account['name']['first_name'] = 'Michael'
+print('Display the new first name:', account['name']['first_name'])
+
+print()
+print('Emptying the dictionary')
+# account = {}
+account.clear()
+
+print('Account details', account)
