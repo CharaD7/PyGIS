@@ -46,7 +46,10 @@ print('Items after index 7', fullname[7:])
 
 # Dictionary datatypes
 account = {
-  'name' : 'John Smith',
+  'name' : {
+    'first_name' : 'John',
+    'last_name' : 'Smith',
+  },
   'contact' : 23023323022,
   'email' : 'jsmith@gmail.com',
 }
@@ -57,6 +60,11 @@ print('Working with Dictionary variables')
 print('----------------------------------------')
 print('Account contents:', account)
 print('Account information:', account.values())
-print('Account name:', account['name'])
+print('Account API_name:', account['name'])
+print('Account name:', account['name'].values())
+print('Account first name:', account['name']['first_name'])
+print('Account last name:', account['name']['last_name'])
 print('Account phone:', account['contact'])
 print('Account email:', account['email'])
+
+print()
