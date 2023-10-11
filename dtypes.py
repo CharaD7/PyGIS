@@ -82,3 +82,12 @@ print()
 print('Deleting the contact information')
 account.pop('contact')
 print('Account information', account)
+
+additional_info = {
+  'sex': 'Male',
+  'religion': 'Christian',
+  'children': ['Cephas', 'Sonia', 'Aseph', 'Kate']
+}
+
+account.update(additional_info)
+print('Account updated', account)
